@@ -4,8 +4,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
       <div className="box">
         <h1 className="title">Hi, Saya John</h1>
         <hr></hr>
@@ -13,7 +11,28 @@ function App() {
           Saya dari Kelas 12 sudah berhasil menginstall React
         </p>
       </div>
-      </header>
+      <div className="box">
+      <h1 className="title">Data diripeserta kelas Reactjs</h1>
+        <hr></hr>
+        <ul>
+          <li>
+            <p>
+               <b>Nama lengkap :</b> Ahamd fauzan arif hakim
+            </p>
+          </li>
+          <li>
+            <p>
+               <b>Email :</b> ahamdfauzanarifhakim@gmail.com
+            </p>
+          </li>
+          <li>
+            <p>
+               <b>Batch Pelatihan :</b> Batch 12
+            </p>
+          </li>
+        </ul>
+      </div>
+
     </div>
   );
 }
